@@ -60,13 +60,18 @@
     "feedme": "latest",
     "helmet": "^3.9.0",
     "iconv-lite": "latest",
+    "markdown": "latest",
+    "markdown-it": "^8.4.0",
+    "markdown-to-html": "0.0.13",
     "mocha-logger": "^1.0.5",
     "moment": "latest",
+    "postcss": "^6.0.14",
     "request": "^2.83.0",
     "rrule-alt": "^2.2.7",
     "simple-git": "^1.85.0",
     "socket.io": "^2.0.4",
     "valid-url": "latest",
-    "walk": "latest"
+    "walk": "latest",
+    "tabletojson": "latest"
   }
 }

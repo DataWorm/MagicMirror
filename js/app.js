@@ -57,7 +57,7 @@ var App = function() {
 		// https://forum.magicmirror.builders/topic/1456/test-suite-for-magicmirror/8
 		var configFilename = path.resolve(global.root_path + "/config/config.js");
 		if (typeof(global.configuration_file) !== "undefined") {
-		    configFilename = path.resolve(global.configuration_file);
+			configFilename = path.resolve(global.configuration_file);
 		}
 
 		try {
@@ -107,11 +107,9 @@ var App = function() {
 
 		var elements = module.split("/");
 		var moduleName = elements[elements.length - 1];
-		var moduleFolder =  __dirname + "/../modules/" + module;
 
-		if (defaultModules.indexOf(moduleName) !== -1) {
-			moduleFolder =  __dirname + "/../modules/default/" + module;
-		}
+		moduleFolder =  __dirname + "/../modules/default/" + module;
+
 
 		var helperPath = moduleFolder + "/node_helper.js";
 

@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="/css/startCSS.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script>
+			function startFadeOut () {
+				$(".img0").fadeOut(1000,function(){
+					$(".div0").fadeIn(1000);
+				});
+				
+		    }
+
+		    function startFadeIn () {
+				
+		    }
+		</script>
+	</head>
+	<body>
+		<img class="img0" src="pic/iolite_mms.png" onclick="startFadeOut();">
+		<div class="div0">
+			<img src="pic/mms.png"/>
+			<article>
+			<a href="###proxy###/editConfig"><img class="img1" src="pic/juwel.png"> Edit the general configurations</a> <br>
+			###modules###
+			<br><br>
+			<p>To start module please use "/"&lt;module_name&gt;. E.g "/clock"></p><br><br>
+			<p>To edit module configuration please use "/edit"&lt;module_name&gt;. E.g "/editClock"></p>
+			</article>
+
+		</div>
+	</body>
+	
+</html>
